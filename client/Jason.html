@@ -1,0 +1,33 @@
+<head> Jason </head>
+
+<body>
+<h1 style= "color: MidnightBlue"> Jason's Personal Webpage</h1>
+
+<div style= "background-color: aquamarine">
+
+<button onclick= "AboutMe()"> About Me </button>
+<button onclick= "WorkButton()"> Professional Projects </button>
+<button onclick= "BlogButton()"> Blog </button>
+<button onclick= "ContactButton()"> Contact </button>
+
+<h1 style="color:brown"> Recent Updates </h1>
+
+</div>
+
+
+<img src= "JASONBLOCK.jpg"  alt= "Jason" height= "150" width="190">
+
+
+<br>
+<br>
+  {{>cool}}
+
+
+</body>
+
+  <template name= "cool">
+    <button> Click to eat pizza </button>
+
+    <jason> <b> Jason </b> </jason> is <u>eating</u> {{numberofPizzas}} veggie pizza! <u> 1 hour ago from web </u>
+
+</template>
